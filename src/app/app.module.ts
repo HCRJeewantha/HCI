@@ -14,6 +14,12 @@ import { FooterComponent } from './theme/footer/footer.component';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
+import { AboutusComponent } from './IT18035568/aboutus/aboutus.component';
+import { FeedbackComponent } from './IT18190694/feedback/feedback.component';
+import { HoteldetailsComponent } from './IT18165876/hoteldetails/hoteldetails.component';
+import { TourpackagesComponent } from './IT18134940/tourpackages/tourpackages.component';
+import { EventsComponent } from './IT18190694/events/events.component';
+import { EventComponent } from './IT18190694/event/event.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +29,12 @@ import {MatButtonModule} from '@angular/material/button';
     LankaMapComponent,
     HeaderComponent,
     FooterComponent,
+    AboutusComponent,
+    FeedbackComponent,
+    HoteldetailsComponent,
+    TourpackagesComponent,
+    EventsComponent,
+    EventComponent,
   
   ],
   imports: [
