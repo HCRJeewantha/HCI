@@ -20,6 +20,8 @@ import { HoteldetailsComponent } from './IT18165876/hoteldetails/hoteldetails.co
 import { TourpackagesComponent } from './IT18134940/tourpackages/tourpackages.component';
 import { EventsComponent } from './IT18190694/events/events.component';
 import { EventComponent } from './IT18190694/event/event.component';
+import { TourguideComponent } from './IT18165876/tourguide/tourguide.component';
+import { HoteldetailComponent } from './IT18165876/hoteldetail/hoteldetail.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { EventComponent } from './IT18190694/event/event.component';
     TourpackagesComponent,
     EventsComponent,
     EventComponent,
+    TourguideComponent,
+    HoteldetailComponent,
   
   ],
   imports: [
